@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASHO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../src/scss/style.css">
+</head>
+
+<body>
+    <nav id="desktop_nav">
+        <div class="container px-0">
+            <div class="row">
+                <div class="col-lg-3 px-0">
+                    <div class="left_nav">
+                        <div class="logo">
+                            <a
+                                href="https://preview.themeforest.net/item/basho-multipurpose-ghost-blog-theme/full_screen_preview/36746216?_ga=2.99161437.253728950.1670840819-699004728.1663000798&_gac=1.119051643.1669796552.Cj0KCQiAm5ycBhCXARIsAPldzoX1gP7nJZ4Xi2UTYAa1Gy-akYNrA0moqIY3l6m4z2aj97DOcW744XwaAtuNEALw_wcB">
+                                <img src="https://basho.fueko.net/content/images/2022/01/basho.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 px-0">
+                    <div class="right_nav">
+                        <ul>
+                            <li>Demos</li>
+                            <li>Style Guide</li>
+                            <li>Membership</li>
+                            <div class="desk_open_menu">
+                                <span id="chevron_down_menu"><i class="fa-solid fa-chevron-down"></i></span>
+                                <ol class="desk_menu_body">
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Tags</a></li>
+                                    <li><a href="http://127.0.0.1:5500/public/authors.html">Authors</a></li>
+                                    <li><a href="http://127.0.0.1:5500/public/subsribe.html">Subscribe</a></li>
+                                    <li><a href="http://127.0.0.1:5500/public/contact.html">Contact</a></li>
+                                    <li><a href="#">Get Theme</a></li>
+                                </ol>
+                            </div>
+                        </ul>
+                        <div class="nav_search">
+                            <i class="bi bi-search"></i>
+                            <h3>Search</h3>
+                        </div>
+                        <a class="join_btn" href="http://127.0.0.1:5500/public/subsribe.html">Join</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav id="mobile_nav">
+        <div class="nav-items">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-6">
+                        <div class="logo_mobile">
+                            <a
+                                href="https://preview.themeforest.net/item/basho-multipurpose-ghost-blog-theme/full_screen_preview/36746216?_ga=2.99161437.253728950.1670840819-699004728.1663000798&_gac=1.119051643.1669796552.Cj0KCQiAm5ycBhCXARIsAPldzoX1gP7nJZ4Xi2UTYAa1Gy-akYNrA0moqIY3l6m4z2aj97DOcW744XwaAtuNEALw_wcB">
+                                <img src="https://basho.fueko.net/content/images/2022/01/basho.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="right_mobile_nav">
+                            <div class="nav_search">
+                                <i class="bi bi-search"></i>
+                            </div>
+                            <div class="mobile_navbar">
+                                <div class="open-menu">
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                    <span class="bar3"></span>
+                                </div>
+                                <ul id="menu-body">
+                                    <li><a href="#">Demos</a></li>
+                                    <li><a href="#">Style Guide</a></li>
+                                    <li><a href="#">Membership</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Tags</a></li>
+                                    <li><a href="#">Authors</a></li>
+                                    <li><a href="#">Subscribe</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Get Theme</a></li>
+                                    <li class="bezbordera"><a href="#">Join</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="modal_search">
+        <div id="modal_item">
+            <div class="close_button">
+                <iconify-icon icon="iwwa:close"></iconify-icon>
+            </div>
+            <div class="container-fluid h-100">
+                <div class="row h-100" id="cerge">
+                    <div class="col-lg-12 px-0">
+                        <div class="inner_side">
+                            <input type="search" name="search" id="search_popup" placeholder="Search">
+                            <p>Please enter at least 3 characters</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="giant_heading">
+            <div class="container px-0">
+                <div class="row">
+                    <div class="col-lg-12 px-0">
+                        <h1><span>Hey, we’re Basho.</span> See our thoughts, stories and ideas.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <div class="row" id="border_bottom">
+                    <div class="col-lg-9 px-0">
+                        <div class="giant_button">
+                            <form>
+                                <input type="email" id="email" name="email" placeholder="Your email address">
+                                <button>Subscribe</button>
+                            </form>
+                            <div class="subscribe_info">
+                                <p>
+                                    Get the email newsletter and unlock access to members-only content and updates
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="slider">
+            <div class="coontainer">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="border_top"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="cont_slide_resp">
+                <div class="row" id="swiper_padding_left">
+                    <div class="col-lg-12 px-0">
+                        <h6>Get started with our <span>best stories</span></h6>
+                        <div #swiperRef="" class="swiper card_slide">
+                            <div class="swiper-button-next">→</div>
+                            <div class="swiper-button-prev">←</div>
+                            <div class="swiper-wrapper mt-2">
+                                <div class="swiper-slide">
+                                    <div class="slider_card">
+                                        <div class="image1">
+                                            <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1559650656-5d1d361ad10e.jpeg"
+                                                alt="">
+                                            <div class="avatar">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/good-faces-onKIR2oTW0o-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="tags" style="display: flex; justify-content: flex-start;">
+                                            <span>Design</span>
+                                            <span>Idea</span>
+                                            <span>Review</span>
+                                        </div>
+                                        <div class="card_texts">
+                                            <h3>
+                                                <a href="/new-technology-is-not-good-or-evil-in-and-of-itself/">
+                                                    New technology is not good or evil in and of itself
+                                                </a>
+                                            </h3>
+                                            <p>
+                                                Vestibulum vehicula dui venenatis neque tempor, accumsan iaculis sapien
+                                                ornare. Sed at ante porta, ullamcorper massa...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_card">
+                                        <div class="image1">
+                                            <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1603808033176-9d134e6f2c74.jpeg"
+                                                alt="">
+                                            <div class="avatar">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="avatar1">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/kazi-mizan-ItjRqGiei5g-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="tags" style="display: flex; justify-content: flex-start;">
+                                            <span class="lock_icon"><iconify-icon
+                                                    icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                            <span>Creative</span>
+                                            <span>Product</span>
+                                        </div>
+                                        <div class="card_texts">
+                                            <h3>
+                                                <a href="/its-a-new-era-in-design-there-are-no-rules/">It’s a new era in
+                                                    design, there are no rules</a>
+                                            </h3>
+                                            <p>Quibus autem in rebus tanta obscuratio non fit, fieri tamen potest, ut
+                                                id ipsum, quod interest, non sit magnum. Ita fit ut...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_card">
+                                        <div class="image1">
+                                            <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1638675039591-c7b3d1bbbd74.jpeg"
+                                                alt="">
+                                            <div class="avatar">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/joshua-oyebanji-kMC1v6rBHMI-unsplash-2.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="tags" style="display: flex; justify-content: flex-start;">
+                                            <span>Design</span>
+                                            <span>Creative</span>
+                                            <span>Idea</span>
+                                        </div>
+                                        <div class="card_texts">
+                                            <h3>
+                                                <a href="/perfection-has-to-do-with-the-end-product/">Perfection has to
+                                                    do with the end product</a>
+                                            </h3>
+                                            <p>
+                                                Aenean eget urna aliquet, viverra orci quis, aliquam erat. Ut rutrum
+                                                quam quam, eu eleifend est blandit et. Vivam...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_card">
+                                        <div class="image1">
+                                            <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1581368129682-e2d66324045b.jpeg"
+                                                alt="">
+                                            <div class="avatar">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="tags" style="display: flex; justify-content: flex-start;">
+                                            <span>People</span>
+                                            <span>Story</span>
+                                        </div>
+                                        <div class="card_texts">
+                                            <h3>
+                                                <a href="/everyone-has-a-different-life-story/">Everyone has a different
+                                                    life story</a>
+                                            </h3>
+                                            <p>Non est igitur summum malum dolor. Tu autem inter haec tantam
+                                                multitudinem hominum interiectam non vides nec...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_card">
+                                        <div class="image1">
+                                            <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1603015268928-a9f7b3edaf27.jpeg"
+                                                alt="">
+                                            <div class="avatar">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/matheus-ferrero-dlYiklmLIGg-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                            <div class="avatar1">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/good-faces-onKIR2oTW0o-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="tags" style="display: flex; justify-content: flex-start;">
+                                            <span>Design</span>
+                                            <span>Lifestyle</span>
+                                            <span>Idea</span>
+                                        </div>
+                                        <div class="card_texts">
+                                            <h3>
+                                                <a href="/the-difference-is-quality/">The difference is quality</a>
+                                            </h3>
+                                            <p>
+                                                Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit,
+                                                interficit. Atque his de rebus et splendida est...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider_card">
+                                        <div class="image1">
+                                            <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1597214844654-01d9d941e0fa.jpeg"
+                                                alt="">
+                                            <div class="avatar">
+                                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="tags" style="display: flex; justify-content: flex-start;">
+                                            <span class="lock_icon"><iconify-icon
+                                                    icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                            <span>Idea</span>
+                                            <span>Creative</span>
+                                        </div>
+                                        <div class="card_texts">
+                                            <h3>
+                                                <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                                    not stop signs, they are guidelines</a>
+                                            </h3>
+                                            <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                                tria. Et quod est munus, quod opus sapientiae.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="written_lately">
+            <div class="container px-0">
+                <div class="row justify-content-between">
+                    <hr>
+                    <div class="col-lg-5 px-0">
+                        <h2>See what we’ve <span>written lately</span></h2>
+                    </div>
+                    <div class="col-lg-6 px-0">
+                        <div class="authors">
+                            <div class="circled_photo" id="a1">
+                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                    alt="Breana Flatley">
+                            </div>
+                            <div class="circled_photo" id="a2">
+                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/seth-doyle-wys9Jty8wNQ-unsplash.jpg"
+                                    alt="Damien Erdman">
+                            </div>
+                            <div class="circled_photo" id="a3">
+                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/kazi-mizan-ItjRqGiei5g-unsplash.jpg"
+                                    alt="Daryl Wehner">
+                            </div>
+                            <div class="circled_photo" id="a4">
+                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/joshua-oyebanji-kMC1v6rBHMI-unsplash-2.jpg"
+                                    alt="Nichole Becker">
+                            </div>
+                            <div class="circled_photo" id="a5">
+                                <img src="https://basho.fueko.net/content/images/size/w300/2022/03/good-faces-onKIR2oTW0o-unsplash.jpg"
+                                    alt="Liza Harber">
+                            </div>
+                        </div>
+                        <div class="authors_text">
+                            <p>Meet our top authors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="margin_x">
+                <div class="row">
+                    <div class="col-lg-4 g-3">
+                        <div class="card1">
+                            <div class="image2">
+                                <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1640447051222-3023288a492b.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="tags" style="display: flex; justify-content: flex-start;">
+                                <span class="lock_icon"><iconify-icon
+                                        icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                <span>Idea</span>
+                                <span>Creative</span>
+                            </div>
+                            <div class="card_texts">
+                                <h3>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                        not stop signs, they are guidelines</a>
+                                </h3>
+                                <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                    tria. Et quod est munus, quod opus sapientiae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 g-3">
+                        <div class="card1">
+                            <div class="image2">
+                                <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1630261234684-d22b0892a809.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="tags" style="display: flex; justify-content: flex-start;">
+                                <span class="lock_icon"><iconify-icon
+                                        icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                <span>Idea</span>
+                                <span>Creative</span>
+                            </div>
+                            <div class="card_texts">
+                                <h3>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                        not stop signs, they are guidelines</a>
+                                </h3>
+                                <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                    tria. Et quod est munus, quod opus sapientiae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 g-3">
+                        <div class="card1">
+                            <div class="image2">
+                                <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1556742208-999815fca738.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="tags" style="display: flex; justify-content: flex-start;">
+                                <span class="lock_icon"><iconify-icon
+                                        icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                <span>Idea</span>
+                                <span>Creative</span>
+                            </div>
+                            <div class="card_texts">
+                                <h3>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                        not stop signs, they are guidelines</a>
+                                </h3>
+                                <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                    tria. Et quod est munus, quod opus sapientiae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 g-3">
+                        <div class="card1">
+                            <div class="image2">
+                                <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1631016800696-5ea8801b3c2a.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="tags" style="display: flex; justify-content: flex-start;">
+                                <span class="lock_icon"><iconify-icon
+                                        icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                <span>Idea</span>
+                                <span>Creative</span>
+                            </div>
+                            <div class="card_texts">
+                                <h3>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                        not stop signs, they are guidelines</a>
+                                </h3>
+                                <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                    tria. Et quod est munus, quod opus sapientiae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 g-3">
+                        <div class="card1">
+                            <div class="image2">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1644478509397-27d9b27771fe.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="tags" style="display: flex; justify-content: flex-start;">
+                                <span class="lock_icon"><iconify-icon
+                                        icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                <span>Idea</span>
+                                <span>Creative</span>
+                            </div>
+                            <div class="card_texts">
+                                <h3>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                        not stop signs, they are guidelines</a>
+                                </h3>
+                                <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                    tria. Et quod est munus, quod opus sapientiae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 g-3">
+                        <div class="card1">
+                            <div class="image2">
+                                <img src="https://basho.fueko.net/content/images/size/w1200/2022/03/photo-1635098996111-35c4a66b3b66.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="tags" style="display: flex; justify-content: flex-start;">
+                                <span class="lock_icon"><iconify-icon
+                                        icon="icon-park-solid:lock-one"></iconify-icon></span>
+                                <span>Idea</span>
+                                <span>Creative</span>
+                            </div>
+                            <div class="card_texts">
+                                <h3>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Problems are
+                                        not stop signs, they are guidelines</a>
+                                </h3>
+                                <p> Quid ad utilitatem tantae pecuniae. Duo enim genera quae erant, fecit
+                                    tria. Et quod est munus, quod opus sapientiae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3">
+                        <div class="one_btn">
+                            <a href="#">Load more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recommended">
+            <div class="container px-0">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 px-0">
+                        <h5>Recommended</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="cont_little_cards">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card2">
+                            <div class="image3">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1631016800696-5ea8801b3c2a.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card_texts">
+                                <h6>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">The trick to getting
+                                        more done is to have the freedom to roam around</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card2">
+                            <div class="image3">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1644478509397-27d9b27771fe.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/seth-doyle-wys9Jty8wNQ-unsplash.jpg"
+                                        alt="">
+                                </div>
+                                <div class="avatar1">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card_texts">
+                                <h6>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Every day, in every city
+                                        and town across the country</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card2">
+                            <div class="image3">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1593259037198-c720f4420d7f.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/good-faces-onKIR2oTW0o-unsplash.jpg"
+                                        alt="">
+                                </div>
+                                <div class="avatar1">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/kazi-mizan-ItjRqGiei5g-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card_texts">
+                                <h6>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">I work best when my
+                                        space is filled with inspiration</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card2">
+                            <div class="image3">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1609405979808-08669e982546.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card_texts">
+                                <h6>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">I have my own definition
+                                        of minimalism</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card2">
+                            <div class="image3">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1615782706112-e4fe47b56c24.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/seth-doyle-wys9Jty8wNQ-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card_texts">
+                                <h6>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">Change your look and
+                                        your attitude</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        <div class="card2">
+                            <div class="image3">
+                                <img src="https://basho.fueko.net/content/images/size/w600/2022/03/photo-1603015268928-a9f7b3edaf27.jpeg"
+                                    alt="">
+                                <div class="avatar">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/alison-erickson-Zt8IkNfhk54-unsplash.jpg"
+                                        alt="">
+                                </div>
+                                <div class="avatar1">
+                                    <img src="https://basho.fueko.net/content/images/size/w300/2022/03/kazi-mizan-ItjRqGiei5g-unsplash.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="card_texts">
+                                <h6>
+                                    <a href="/problems-are-not-stop-signs-they-are-guidelines/">The difference is
+                                        quality</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row flex-wrap">
+                    <div class="col-xl-7">
+                        <h2>Subscribe to <span>new posts</span></h2>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="giant_button">
+                            <form>
+                                <input type="email" id="email" name="email" placeholder="Your email address">
+                                <button>Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row footer_border">
+                <div class="col-lg-4 mb-4">
+                    <div class="foot_logo">
+                        <img src="https://basho.fueko.net/content/images/2022/01/basho.svg" alt="">
+                    </div>
+                    <h5>A minimal, functional theme for running a paid-membership publication on Ghost.</h5>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4" id="footer_list">
+                    <ul>
+                        <li class="list_head">Social</li>
+                        <li><i class="fa-brands fa-facebook"></i><a href="#">Facebook</a></li>
+                        <li><i class="fa-brands fa-twitter"></i><a href="#">Twitter</a></li>
+                        <li><iconify-icon icon="mdi:kickstarter"></iconify-icon><a href="#">Kickstarter</a></li>
+                        <li><i class="fa-brands fa-vimeo-v"></i><a href="#">Vimeo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4" id="footer_list">
+                    <ul>
+                        <li class="list_head">About</li>
+                        <li><a href="#">Style Guide</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">404</a></li>
+                        <li><a href="#">Get Theme</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4" id="footer_list">
+                    <ul>
+                        <li class="list_head">Features</li>
+                        <li><a href="#">Demos</a></li>
+                        <li><a href="#">Light version</a></li>
+                        <li><a href="#">Color version</a></li>
+                        <li><a href="#">Partial version</a></li>
+                        <li><a href="#">Dark version</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4" id="footer_list">
+                    <ul>
+                        <li class="list_head">Membership</li>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Membership</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Tags</a></li>
+                        <li><a href="#">Authors</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_foot">
+                        © <a href="#">Basho</a> 2022. Published with <a href="#">Ghost</a> and <a href="#">Basho</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/184ed8fdba.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="../src/js/app.js"></script>
+</body>
+
+</html>

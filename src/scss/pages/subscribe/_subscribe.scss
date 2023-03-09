@@ -1,0 +1,121 @@
+#subscribe {
+    font-family: $nineteen_font;
+
+    .left_image {
+        width: 337px;
+
+        @media (max-width:992px) {
+            display: none;
+        }
+
+        img {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .right_field {
+        .logo_field {
+            margin-bottom: 120px;
+            margin-left: 50px;
+            height: 90px;
+            display: flex;
+            align-items: flex-end;
+
+            @media (max-width:480px) {
+                margin-left: 0;
+            }
+
+            .logo {
+                width: 148px;
+                height: 40px;
+                margin-bottom: 10px;
+                @media (max-width:480px) {
+                    width: 125px;
+                height: 34px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .main_body {
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+            width: 47%;
+
+            // @media (max-width:992px) {
+            //     align-items: center;
+            // }
+            @media (max-width:480px) {
+                width: 100%;
+                margin-left: 0;
+                align-items: flex-start;
+            }
+
+            .heading {
+                margin-bottom: 30px;
+
+                h2 {
+                    font-size: 45px;
+                    font-weight: 700;
+
+                    @media (max-width:480px) {
+                        font-size: 34px;
+                    }
+                }
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                width: 100%;
+
+                input {
+                    background-color: #efeef0;
+                    border: none;
+                    padding: 18px;
+                    border-radius: 50px;
+                    font-size: 21px;
+                    transition: all .25s ease;
+                    &:hover{
+                        background-color: #e6e6ea;
+                    }
+
+                    @media (max-width:480px) {
+                        font-size: 15px;
+                        padding: 15px;
+                    }
+                }
+
+                button {
+                    margin-top: 15px;
+                    border: none;
+                    background-color: #151618;
+                    color: white;
+                    border-radius: 50px;
+                    padding: 16px;
+                    font-weight: 400;
+                    width: 176px;
+                    font-size: 26px;
+                    transition: all .25s ease;
+                    &:hover{
+                        background-color: #314bff;
+                    }
+                    @media (max-width:480px) {
+                        font-size: 18px;
+                        padding: 15px;
+                        width: 136px;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
